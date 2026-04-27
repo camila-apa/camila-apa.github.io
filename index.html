@@ -5,19 +5,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sobre mim</title>
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+         <script src="https://cdn.tailwindcss.com"></script>
     </head>
 
-    <body>
-        <div class="container">
-            <h1 class="titulo">Sobre mim</h1>
-            <img class="foto" src="foto.jpeg">
-            <p id="nome">Meu nome é Camila</p>
-            <h2 class="subtitulo">Meus interesses</h2>
-            <ul class="lista">
-                <li>Programação</li>
-                <li>Filmes</li>
-                <li>Jogos</li>
+    <body class="bg-lime-800 font-sans p-10">
+        <div class="bg-lime-50 p-6 rounded-xl">
+            <h1 class="text-3xl text-center font-bold text-lime-800">Sobre mim</h1>
+            <img src="foto.jpeg"
+              class="w-48 rounded-full border-4 border-lime-800 p-1 mx-auto">
+            <p class="text-center font-bold">Meu nome é Camila</p>
+            <h2 class="text-2xl font-semibold text-lime-900">Meus interesses</h2>
+            <ul class="bg-lime-100 p-4 rounded-lg">
+                <li class="hover:text-red-500">Programação</li>
+                <li class="hover:text-red-500">Filmes</li>
+                <li class="hover:text-red-500">Jogos</li>
             </ul>
         </div>
     </body>
